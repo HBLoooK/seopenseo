@@ -24,7 +24,7 @@ export const SerpAnalyzerView: React.FC = () => {
 
   // Snippet Optimizer Interactive State
   const [optTitle, setOptTitle] = useState('SEOpenSEO - 100% Free Open Alternative to Ahrefs & SEMrush');
-  const [optUrl, setOptUrl] = useState('https://seopenseo.org/free-seo-tools');
+  const [optUrl, setOptUrl] = useState('https://seopenseo.netlify.app/free-seo-tools');
   const [optDesc, setOptDesc] = useState(
     'Audit web pages, explore keywords, analyze SERPs, check backlinks, and build schema markup with zero cost. No credit card required.'
   );
