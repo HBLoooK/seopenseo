@@ -1,0 +1,6 @@
+{
+  "name": "SEOpenSEO",
+  "description": "Free & open SEO intelligence platform offering AI site audits, keyword research, SERP analysis, backlink discovery, content gap tool, schema builder, and page speed diagnostics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
