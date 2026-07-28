@@ -152,7 +152,7 @@ export const LegalPolicyModal: React.FC<LegalPolicyModalProps> = ({
               <div className="space-y-3 bg-slate-950 p-4 rounded-xl border border-slate-800">
                 <h4 className="font-bold text-emerald-400 text-sm">4. GDPR & CCPA User Rights</h4>
                 <p>
-                  Under European General Data Protection Regulation (GDPR) and California Consumer Privacy Act (CCPA), you have the right to request deletion, access, or restriction of any stored analytical data. Contact <code className="text-cyan-400">privacy@seopenseo.org</code> to submit inquiries.
+                  Under European General Data Protection Regulation (GDPR) and California Consumer Privacy Act (CCPA), you have the right to request deletion, access, or restriction of any stored analytical data. Visit <a href="https://seopenseo.netlify.app" target="_blank" rel="noreferrer" className="text-cyan-400 underline">seopenseo.netlify.app</a> to submit inquiries.
                 </p>
               </div>
             </div>
