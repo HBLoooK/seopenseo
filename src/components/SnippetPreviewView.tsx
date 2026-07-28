@@ -15,7 +15,7 @@ export const SnippetPreviewView: React.FC = () => {
   const [description, setDescription] = useState(
     'Discover top-tier free SEO analysis tools with zero subscription limits. Audit meta tags, inspect SERPs, map internal PageRank, and generate JSON-LD schema instantly.'
   );
-  const [url, setUrl] = useState('https://seopenseo.org/tools/free-seo-suite');
+  const [url, setUrl] = useState('https://seopenseo.netlify.app/tools/free-seo-suite');
   const [device, setDevice] = useState<'desktop' | 'mobile'>('desktop');
   const [showRichSnippet, setShowRichSnippet] = useState(true);
   const [copied, setCopied] = useState(false);

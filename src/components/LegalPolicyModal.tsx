@@ -309,7 +309,7 @@ export const LegalPolicyModal: React.FC<LegalPolicyModalProps> = ({
                   SEOpenSEO serves a valid <code className="text-amber-400 font-mono">/ads.txt</code> endpoint directly from the root domain.
                 </p>
                 <div className="bg-slate-900 p-3 rounded-lg border border-slate-800 font-mono text-[11px] text-slate-300">
-                  https://seopenseo.org/ads.txt
+                  https://seopenseo.netlify.app/ads.txt
                 </div>
               </div>
 

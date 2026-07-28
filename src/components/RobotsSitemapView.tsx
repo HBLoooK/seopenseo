@@ -5,7 +5,7 @@ export const RobotsSitemapView: React.FC = () => {
   const [activeSubTab, setActiveSubTab] = useState<'robots' | 'sitemap'>('sitemap');
 
   // Sitemap state
-  const [siteDomain, setSiteDomain] = useState('https://seopenseo.org');
+  const [siteDomain, setSiteDomain] = useState('https://seopenseo.netlify.app');
   const [pages, setPages] = useState<{ path: string; freq: string; priority: string }[]>([
     { path: '/', freq: 'daily', priority: '1.0' },
     { path: '/tools', freq: 'weekly', priority: '0.8' },
@@ -17,7 +17,7 @@ export const RobotsSitemapView: React.FC = () => {
   // Robots.txt state
   const [userAgents, setUserAgents] = useState('*');
   const [disallowPaths, setDisallowPaths] = useState('/admin/\n/api/\n/private/');
-  const [sitemapUrl, setSitemapUrl] = useState('https://seopenseo.org/sitemap.xml');
+  const [sitemapUrl, setSitemapUrl] = useState('https://seopenseo.netlify.app/sitemap.xml');
   const [copiedRobots, setCopiedRobots] = useState(false);
 
   // Generate XML
